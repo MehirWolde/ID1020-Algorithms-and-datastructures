@@ -1,0 +1,27 @@
+Task 5:
+Example 1:
+Enter size of array to sort: 
+100000
+Time taken to mergesort: 47 milliseconds
+Time taken for insertionsort: 6208 milliseconds
+
+Example 2:
+Enter size of array to sort: 
+5000
+Time taken to mergesort: 4 milliseconds
+Time taken for insertionsort: 74 milliseconds
+
+Task 6:
+Example 1:
+Enter how long the array should be: 
+100000
+Enter cutoff: 
+15
+Time taken to mergesort: 41 milliseconds
+
+Example 2:
+Enter how long the array should be: 
+1000000
+Enter cutoff: 
+24
+Time taken to mergesort: 201 milliseconds

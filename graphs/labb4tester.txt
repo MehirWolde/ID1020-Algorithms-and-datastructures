@@ -1,0 +1,34 @@
+Test 1: hitta en existerande väg med hjälp av depthfirstsearch i en oriktad graf
+Travel from: 
+AL
+To: 
+FL
+AL--> TN--> VA--> NC--> SC--> GA--> FL
+
+Test 2: hitta en existerande väg med hjälp av breadthfirstsearch i en oriktad graf
+Travel from: 
+Al
+To: 
+FL
+AL--> FL
+
+Test 3: hitta en existerande väg med hjälp av depthfirstsearch i en riktad graf
+Travel from:
+Al
+To:
+FL
+AL--> FL
+
+Test 4: hitta en icke existerande väg med hjälp av depthfirstsearch i en riktad graf
+Travel from:
+WA
+To:
+ME
+There is no path between the chosen states
+
+Test 5: skriva in stater som ej existerar
+Travel from:
+mehir
+Exception in thread "main" java.lang.NullPointerException
+        at labb4.SymbolDiGraph.index(SymbolDiGraph.java:50)
+        at labb4.testDi.main(testDi.java:20)
